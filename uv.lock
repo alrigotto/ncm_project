@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.13"
 
 [[package]]
@@ -219,7 +219,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "pandas", specifier = ">=2.2.3" },
-    { name = "siscomex-ncm", specifier = ">=1.0.1" },
+    { name = "siscomex-ncm", specifier = ">=1.0.2" },
     { name = "streamlit", specifier = ">=1.45.1" },
 ]
 
@@ -456,14 +456,14 @@ wheels = [
 
 [[package]]
 name = "siscomex-ncm"
-version = "1.0.1"
+version = "1.0.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/67/209fd11e2c400db27523ce2fb63a428943f6e90b0f5ea9d2da9711630606/siscomex-ncm-1.0.1.tar.gz", hash = "sha256:82ebab6606aaae517f398bbb52ade6e6e6d39b50505f73912369f3564f3ddb3c", size = 5339, upload-time = "2022-05-14T19:05:15.953Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fa/53/533be3d1d0d57a2428b0039f8596dc4f5869ea963608f649eee0ac5ed8ad/siscomex_ncm-1.0.2.tar.gz", hash = "sha256:ef4c9a09ded052d3a1d38cbb0a9214969c2978c01060bcc2d68330098fef653e", size = 5862, upload-time = "2025-06-07T11:44:09.938Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/80/9b/db3e8fc78640ab1c807b00ab1ecce561a120c97442851e802b7771e075ff/siscomex_ncm-1.0.1-py3-none-any.whl", hash = "sha256:1048d35f0035f7f242849a28edbcfd86476926ef3c58ccf1854a18bba5fddca1", size = 5686, upload-time = "2022-05-14T19:05:18.598Z" },
+    { url = "https://files.pythonhosted.org/packages/03/17/fbb17008ed2d94455154afc7b937341881ef879bf020a86054408786e464/siscomex_ncm-1.0.2-py3-none-any.whl", hash = "sha256:995feb5150027fcf95e44984a5dfac937d98c5e69aa68dbd70767c66947d3e88", size = 7006, upload-time = "2025-06-07T11:44:08.382Z" },
 ]
 
 [[package]]
